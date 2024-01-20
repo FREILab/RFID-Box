@@ -141,7 +141,7 @@ void tryLoginID(String uid) {
   Serial.print("[HTTP] begin...\n");
   // configure traged server and url
   String s = "";
-  s = s + "http://" + SERVER_IP + "/machine_try_login/" + AUTHENTICATION_TOKEN + "/" + MACHINE_NAME + "/" + uid;
+  s = s + "http://" + SERVER_IP + "/machine_try_login/" + AUTHENTICATION_TOKEN + "/" + MACHINE_NAME + "/" + MACHINE_ID + "/" + uid;
   http.begin(client, s); //HTTP
 
   Serial.print("[HTTP] GET...\n");

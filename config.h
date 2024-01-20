@@ -7,5 +7,6 @@
 #define AUTHENTICATION_TOKEN ""
 
 #define MACHINE_NAME ""
+#define MACHINE_ID  "" //used for the logfile in the backend 
 
 #endif /* CONFIG_H */
